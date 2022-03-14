@@ -1,0 +1,227 @@
+Started GET "/" for ::1 at 2022-03-14 01:04:32 -0600
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/davidgarcia/.rvm/gems/ruby-2.7.2/gems/railties-6.0.4.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/davidgarcia/.rvm/gems/ruby-2.7.2/gems/railties-6.0.4.7/lib/rails/templates/rails/welcome/index.html.erb (Duration: 8.9ms | Allocations: 1874)
+Completed 200 OK in 23ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 3952)
+
+
+Started GET "/" for ::1 at 2022-03-14 01:06:03 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 74)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.17
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 1223ms (ActiveRecord: 0.0ms | Allocations: 19816)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /Users/davidgarcia/Documents/udemy-rails/rails_6_projects/alpha-blog/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2022-03-14 01:07:30 -0600
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 181)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.17
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 1156ms (ActiveRecord: 0.0ms | Allocations: 9534)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /Users/davidgarcia/Documents/udemy-rails/rails_6_projects/alpha-blog/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2022-03-14 01:11:54 -0600
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/davidgarcia/.rvm/gems/ruby-2.7.2/gems/railties-6.0.4.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/davidgarcia/.rvm/gems/ruby-2.7.2/gems/railties-6.0.4.7/lib/rails/templates/rails/welcome/index.html.erb (Duration: 8.1ms | Allocations: 290)
+Completed 200 OK in 17ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 1793)
+
+
+Started GET "/home" for ::1 at 2022-03-14 01:11:57 -0600
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 74)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.17
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 1345ms (ActiveRecord: 0.0ms | Allocations: 8965)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /Users/davidgarcia/Documents/udemy-rails/rails_6_projects/alpha-blog/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/about" for ::1 at 2022-03-14 01:12:07 -0600
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (Duration: 0.7ms | Allocations: 74)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.17
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 1103ms (ActiveRecord: 0.0ms | Allocations: 5791)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /Users/davidgarcia/Documents/udemy-rails/rails_6_projects/alpha-blog/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/about" for ::1 at 2022-03-14 01:12:44 -0600
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (Duration: 0.6ms | Allocations: 181)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.17
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 1120ms (ActiveRecord: 0.0ms | Allocations: 9535)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /Users/davidgarcia/Documents/udemy-rails/rails_6_projects/alpha-blog/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/about" for ::1 at 2022-03-14 01:14:40 -0600
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (Duration: 1.3ms | Allocations: 181)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/davidgarcia/Documents/udemy-rails/rails_6_projects/alpha-blog/public/packs
+[Webpacker] Hash: 2b009fa413816c1165c8
+Version: webpack 4.46.0
+Time: 1833ms
+Built at: 03/14/2022 1:14:44 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-4ff707c731c80cbe6d96.js    124 KiB  application  [emitted] [immutable]  application
+js/application-4ff707c731c80cbe6d96.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-4ff707c731c80cbe6d96.js js/application-4ff707c731c80cbe6d96.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 4150ms (Views: 4143.5ms | ActiveRecord: 0.0ms | Allocations: 8766)
+
+
+Started GET "/" for ::1 at 2022-03-14 01:14:47 -0600
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 74)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 23.6ms | ActiveRecord: 0.0ms | Allocations: 4206)
+
+
